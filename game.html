@@ -1,0 +1,227 @@
+<html lang="en">
+    <head>
+        <title>Alcohol Simulator</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="assets/icon.png">
+        <link rel="stylesheet" href="styles.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- alignment choosing -->
+        <div id="start" style="display: none;">
+            <div id="option1Wrap">
+                <div class="startTitle_wrap">
+                    <p class="startTitle">The Government</p>
+                </div>
+                <div class="perksWrap">
+                    <p class="perks">
+                        <span class="s_pros">Pros</span><br>
+                        <span> - Increased something</span><br>
+                        <span class="s_cons">Cons</span><br>
+                        <span> - Decreased something</span>
+                    </p>
+                </div>
+                <div class="selectorBtnWrap">
+                    <button id="selectorBtn1" class="selectBtn">Choose?</button>
+                </div>
+            </div>
+            <div id="option2Wrap">
+                <div class="startTitle_wrap">
+                    <p class="startTitle">The Womens Christian Temperance Union</p>
+                </div>
+                <div class="perksWrap">
+                    <p class="perks">
+                        <span class="s_pros">Pros</span><br>
+                        <span> - Increased something</span><br>
+                        <span class="s_cons">Cons</span><br>
+                        <span> - Decreased something</span>
+                    </p>
+                </div>
+                <div class="selectorBtnWrap">
+                    <button id="selectorBtn3" class="selectBtn">Choose?</button>
+                </div>
+            </div>
+            <div id="option3Wrap">
+                <div class="startTitle_wrap">
+                    <p class="startTitle">The People</p>
+                </div>
+                <div class="perksWrap">
+                    <p class="perks">
+                        <span class="s_pros">Pros</span><br>
+                        <span> - Increased something</span><br>
+                        <span class="s_cons">Cons</span><br>
+                        <span> - Decreased something</span>
+                    </p>
+                </div>
+                <div class="selectorBtnWrap">
+                    <button id="selectorBtn2" class="selectBtn">Choose?</button>
+                </div>
+            </div>
+        </div>
+        <!-- game -->
+        <div id="game" style="display: none;">
+            <div id="top">
+                <p id="date">Fri, May 13<sup>th</sup>, 1913</p>
+            </div>
+            <div id="middle">
+                <div id="statWrapper">
+                    <p id="statTitle">Statistics</p>
+                    <p id="stats">
+                        Overall Cheer: <span id="statHappy">-1</span><br><br>
+                        Dough: <span id="statMoney">93275</span><sup>$</sup><br><br>
+                        Population: <span id="statPop">6532</span><br><br>
+                        Crime: <span id="crimeStat">3</span>%<br><br>
+                        Enforcement: <span id="enforceStat">97</span>%
+                    </p>
+                </div>
+                <div id="imgWrap">
+                    <img id="cityImg" src="assets/cityImg1.png" alt="city_loadFail">
+                </div>
+            </div>
+            <div id="bottom">
+                <button id="upgradeBtn">Retrofit</button>
+                <button id="employmentBtn">Employment</button>
+                <button id="skillTreeBtn">Skill Tree</button>
+            </div>
+        </div>
+        <!-- employment  -->
+        <div id="employment" style="display: none;">
+            <div id="e_titleWrap">
+                <p id="e_title">Employment</p>
+            </div>
+            <div id="workers">
+                <div class="worker">
+                    <div class="workerImgWrap"></div>
+                    <div class="workerDescWrap">
+                        <div id="title-hire">
+                            <p id="name" class="workerName">Bob</p>
+                            <button id="hireBtn" class="hirebutton">Hire</button>
+                        </div>
+                        <div id="workerDesc">
+                            <p class="desc">Bob is hardworking and likes beer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- skill tree  -->
+        <div id="skillTree" style="display: none;">
+            <div id="st_titleWrap">
+                <p id="st_title">Skills</p>
+            </div>
+            <div id="skillsWrap">
+                <div id="skill1" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+                <div id="skill2" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+                <div id="skill3" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+            </div>
+            <div id="skillsWrap2">
+                <div id="skill4" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+                <div id="skill5" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+                <div id="skill6" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+            </div>
+            <div id="skillsWrap3">
+                <div id="skill4" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+                <div id="skill5" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+                <div id="skill6" class="skillCard">
+                    <p class="skillTitle">Skill Title</p>
+                    <p class="skillDesc">An interesting description, might be worth purchasing</p>
+                    <button id="skillBtn1" class="skillBtn">Purchase</button>
+                </div>
+            </div>
+        </div>
+        <!-- upgrades -->
+        <div id="upgrades">
+            <div id="u_titleWrap">
+                <p id="u_title">Retrofit</p>
+            </div>
+            <div id="upgradeWrap">
+                <div id="upgrade1" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+                <div id="upgrade2" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+                <div id="upgrade3" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+            </div>
+            <div id="upgradeWrap2">
+                <div id="upgrade4" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+                <div id="upgrade5" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+                <div id="upgrade6" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+            </div>
+            <div id="upgradeWrap3">
+                <div id="upgrade7" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+                <div id="upgrade8" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+                <div id="upgrade9" class="upgradeCard">
+                    <p class="upgradeTitle">Upgrade Title</p>
+                    <p class="upgradeDesc">An interesting description, might be worth upgrading</p>
+                    <button id="upgradeBtn1" class="upgradeBtn">Upgrade</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--
+    Designed by: Wyatt Moore | Copyright 2022 | All rights reserved | Non-Editable and Non-Distributable
+-->

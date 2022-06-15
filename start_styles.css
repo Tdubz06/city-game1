@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Old Newspaper Types';
+    src: url(assets/oldnewspapertypes/OldNewspaperTypes.ttf);
+}
+@font-face {
+    font-family: 'Traveling Typewriter';
+    src: url(assets/traveling_typewriter/TravelingTypewriter.ttf);
+}
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color800);
+}
+:root {
+    --color800: #212121;
+    --color100: #fff;
+    --colorTr: transparent;
+    --test-color100: #453692;
+    --selection-colorBack170: rgba(61, 61, 61, 0.749);
+    --selection-color: #fff;
+}
+
+#top {
+    width: 100%;
+    height: calc(100% - 35%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color100);
+}
+#title {
+    font-size: 70px;
+    font-family: 'Old Newspaper Types';
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+#bottom {
+    width: 100%;
+    height: calc(100% - 65%);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+#playBtn {
+    width: 200px;
+    height: 60px;
+    font-size: 17px;
+    border: 2px solid var(--color100);
+    color: var(--color100);
+    font-family: 'Traveling Typewriter';
+    background-color: var(--colorTr);
+}
+#playBtn:hover {
+    cursor: pointer;
+    border: 2px inset lightgray;
+}
